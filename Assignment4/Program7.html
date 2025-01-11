@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Online Quiz</title>
+</head>
+<body>
+  <h1>Online Quiz</h1>
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name"><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br><br>
+
+    <label>Question 1: What is the capital of France?</label><br>
+    <input type="radio" id="paris" name="q1" value="paris">
+    <label for="paris">Paris</label><br>
+    <input type="radio" id="rome" name="q1" value="rome">
+    <label for="rome">Rome</label><br>
+    <input type="radio" id="madrid" name="q1" value="madrid">
+    <label for="madrid">Madrid</label><br><br>
+
+    <label>Question 2: Select the primary colors:</label><br>
+    <input type="checkbox" id="red" name="q2" value="red">
+    <label for="red">Red</label><br>
+    <input type="checkbox" id="blue" name="q2" value="blue">
+    <label for="blue">Blue</label><br>
+    <input type="checkbox" id="green" name="q2" value="green">
+    <label for="green">Green</label><br>
+    <input type="checkbox" id="yellow" name="q2" value="yellow">
+    <label for="yellow">Yellow</label><br><br>
+
+    <input type="submit" value="Submit">
+  </form>
+  <p>Time Remaining: <span id="time">05:00</span></p>
+</body>
+</html>
