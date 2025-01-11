@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Custom Form Template</title>
+</head>
+<body>
+  <h1>Customizable Form Template</h1>
+  <form>
+    <label for="formName">Form Name:</label>
+    <input type="text" id="formName"><br><br>
+
+    <label for="numberOfFields">Number of Input Fields:</label>
+    <input type="number" id="numberOfFields" onchange="addFields()"><br><br>
+
+    <div id="fieldsContainer"></div>
+
+    <input type="button" value="Generate Form" onclick="generateForm()">
+  </form>
+
+  <div id="formPreview"></div>
+</body>
+</html>
